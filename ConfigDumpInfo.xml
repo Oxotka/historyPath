@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="CommonForm.СохранениеПечатнойФормы" id="54f1efff-9975-4164-94f9-3eb70a8f08ea" configVersion="1548831b14c9ed10008258428a0e854414bcf8a5"/>
+		<Metadata name="CommonForm.СохранениеПечатнойФормы.Form" id="54f1efff-9975-4164-94f9-3eb70a8f08ea.0" configVersion="e578c04ef7242e63761e11d33ceaa83da23da9b3"/>
+		<Metadata name="Configuration.ИсторияСохраненияПечатныхФорм" id="93a3c862-7b57-4b24-8d63-69021fde1b5c" configVersion="5027e7aa6bb69570efbd9408d8f6980b59d40192"/>
+		<Metadata name="Language.Русский" id="a2d134c7-cf4f-4750-ba43-dc3f18e6963c" configVersion="4a2a0d25248cd54e781a7c4680143f061198e528"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
