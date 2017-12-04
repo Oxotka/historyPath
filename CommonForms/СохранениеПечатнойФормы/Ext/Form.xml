@@ -40,7 +40,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnLoadDataFromSettingsAtServer" callType="After">ИсторияСохранения_ПриЗагрузкеДанныхИзНастроекНаСервереПосле</Event>
+		<Event name="OnOpen" callType="After">ИсторияСохранения_ПриОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">ИсторияСохранения_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
