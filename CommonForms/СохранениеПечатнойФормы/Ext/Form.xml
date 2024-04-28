@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<CommandSet>
-		<ExcludedCommand>No</ExcludedCommand>
-		<ExcludedCommand>CustomizeForm</ExcludedCommand>
-		<ExcludedCommand>SaveValues</ExcludedCommand>
-		<ExcludedCommand>Close</ExcludedCommand>
-		<ExcludedCommand>Help</ExcludedCommand>
 		<ExcludedCommand>Abort</ExcludedCommand>
-		<ExcludedCommand>Retry</ExcludedCommand>
-		<ExcludedCommand>Yes</ExcludedCommand>
-		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
 		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
 		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
@@ -52,6 +52,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ВыборМестаСохраненияФайлаExtendedTooltip" id="82"/>
@@ -156,6 +157,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаВыборФорматовExtendedTooltip" id="89"/>
 			<ChildItems>
 				<Table name="ВыбранныеФорматыСохранения" id="72">
@@ -165,6 +167,7 @@
 					<Header>false</Header>
 					<HorizontalLines>false</HorizontalLines>
 					<VerticalLines>false</VerticalLines>
+					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>ВыбранныеФорматыСохранения</DataPath>
 					<RowPictureDataPath>ВыбранныеФорматыСохранения.Picture</RowPictureDataPath>
 					<Title>
@@ -174,17 +177,17 @@
 						</v8:item>
 					</Title>
 					<CommandSet>
-						<ExcludedCommand>Copy</ExcludedCommand>
-						<ExcludedCommand>SortListAsc</ExcludedCommand>
-						<ExcludedCommand>MoveUp</ExcludedCommand>
-						<ExcludedCommand>SelectAll</ExcludedCommand>
-						<ExcludedCommand>SortListDesc</ExcludedCommand>
-						<ExcludedCommand>Pickup</ExcludedCommand>
-						<ExcludedCommand>Delete</ExcludedCommand>
-						<ExcludedCommand>EndEdit</ExcludedCommand>
 						<ExcludedCommand>Add</ExcludedCommand>
 						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
 						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>Pickup</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
 					</CommandSet>
 					<ContextMenu name="ВыбранныеФорматыСохраненияКонтекстноеМеню" id="73"/>
 					<AutoCommandBar name="ВыбранныеФорматыСохраненияКоманднаяПанель" id="74">
@@ -242,6 +245,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДополнительныеПараметрыExtendedTooltip" id="93"/>
@@ -398,6 +402,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">ИсторияСохранения_СохранитьПеред</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>
@@ -407,22 +412,22 @@
 			</Type>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.4">
+	<BaseForm version="2.15">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<CommandBarLocation>Bottom</CommandBarLocation>
 		<CommandSet>
-			<ExcludedCommand>No</ExcludedCommand>
-			<ExcludedCommand>CustomizeForm</ExcludedCommand>
-			<ExcludedCommand>SaveValues</ExcludedCommand>
-			<ExcludedCommand>Close</ExcludedCommand>
-			<ExcludedCommand>Help</ExcludedCommand>
 			<ExcludedCommand>Abort</ExcludedCommand>
-			<ExcludedCommand>Retry</ExcludedCommand>
-			<ExcludedCommand>Yes</ExcludedCommand>
-			<ExcludedCommand>RestoreValues</ExcludedCommand>
+			<ExcludedCommand>Close</ExcludedCommand>
+			<ExcludedCommand>CustomizeForm</ExcludedCommand>
+			<ExcludedCommand>Help</ExcludedCommand>
 			<ExcludedCommand>Ignore</ExcludedCommand>
+			<ExcludedCommand>No</ExcludedCommand>
 			<ExcludedCommand>OK</ExcludedCommand>
+			<ExcludedCommand>RestoreValues</ExcludedCommand>
+			<ExcludedCommand>Retry</ExcludedCommand>
+			<ExcludedCommand>SaveValues</ExcludedCommand>
+			<ExcludedCommand>Yes</ExcludedCommand>
 		</CommandSet>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<HorizontalAlign>Right</HorizontalAlign>
@@ -456,6 +461,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ВыборМестаСохраненияФайлаExtendedTooltip" id="82"/>
@@ -559,6 +565,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<ExtendedTooltip name="ГруппаВыборФорматовExtendedTooltip" id="89"/>
 				<ChildItems>
 					<Table name="ВыбранныеФорматыСохранения" id="72">
@@ -568,6 +575,7 @@
 						<Header>false</Header>
 						<HorizontalLines>false</HorizontalLines>
 						<VerticalLines>false</VerticalLines>
+						<FileDragMode>AsFile</FileDragMode>
 						<DataPath>ВыбранныеФорматыСохранения</DataPath>
 						<RowPictureDataPath>ВыбранныеФорматыСохранения.Picture</RowPictureDataPath>
 						<Title>
@@ -577,17 +585,17 @@
 							</v8:item>
 						</Title>
 						<CommandSet>
-							<ExcludedCommand>Copy</ExcludedCommand>
-							<ExcludedCommand>SortListAsc</ExcludedCommand>
-							<ExcludedCommand>MoveUp</ExcludedCommand>
-							<ExcludedCommand>SelectAll</ExcludedCommand>
-							<ExcludedCommand>SortListDesc</ExcludedCommand>
-							<ExcludedCommand>Pickup</ExcludedCommand>
-							<ExcludedCommand>Delete</ExcludedCommand>
-							<ExcludedCommand>EndEdit</ExcludedCommand>
 							<ExcludedCommand>Add</ExcludedCommand>
 							<ExcludedCommand>Change</ExcludedCommand>
+							<ExcludedCommand>Copy</ExcludedCommand>
+							<ExcludedCommand>Delete</ExcludedCommand>
+							<ExcludedCommand>EndEdit</ExcludedCommand>
 							<ExcludedCommand>MoveDown</ExcludedCommand>
+							<ExcludedCommand>MoveUp</ExcludedCommand>
+							<ExcludedCommand>Pickup</ExcludedCommand>
+							<ExcludedCommand>SelectAll</ExcludedCommand>
+							<ExcludedCommand>SortListAsc</ExcludedCommand>
+							<ExcludedCommand>SortListDesc</ExcludedCommand>
 						</CommandSet>
 						<ContextMenu name="ВыбранныеФорматыСохраненияКонтекстноеМеню" id="73"/>
 						<AutoCommandBar name="ВыбранныеФорматыСохраненияКоманднаяПанель" id="74">
@@ -645,6 +653,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаДополнительныеПараметрыExtendedTooltip" id="93"/>
@@ -680,7 +689,7 @@
 			</UsualGroup>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="УпаковатьВАрхив" id="2">
+			<Attribute name="УпаковатьВАрхив" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -694,7 +703,7 @@
 					<Field>УпаковатьВАрхив</Field>
 				</Save>
 			</Attribute>
-			<Attribute name="ВыбраннаяПапка" id="4">
+			<Attribute name="ВыбраннаяПапка" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -712,7 +721,7 @@
 					<Field>ВыбраннаяПапка</Field>
 				</Save>
 			</Attribute>
-			<Attribute name="ВариантСохранения" id="8">
+			<Attribute name="ВариантСохранения" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -730,7 +739,7 @@
 					<Field>ВариантСохранения</Field>
 				</Save>
 			</Attribute>
-			<Attribute name="ВыбранныйОбъект" id="9">
+			<Attribute name="ВыбранныйОбъект" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -741,7 +750,7 @@
 					<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 				</Type>
 			</Attribute>
-			<Attribute name="ВыбранныеФорматыСохранения" id="12">
+			<Attribute name="ВыбранныеФорматыСохранения" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -756,7 +765,7 @@
 				</Save>
 				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
-			<Attribute name="ПереводитьИменаФайловВТранслит" id="1">
+			<Attribute name="ПереводитьИменаФайловВТранслит" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -772,7 +781,7 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="Сохранить" id="1">
+			<Command name="Сохранить" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -785,6 +794,7 @@
 						<v8:content>Сохранить</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 		</Commands>
 		<Parameters>
